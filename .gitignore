@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# macOS system metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Temporary transaction files and generated export reports
+assets/receipts/*.txt
+!assets/receipts/.gitkeep
+assets/reports/*.csv
+!assets/reports/.gitkeep
+
+# IDEs and local editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# Environment variables
+.env
